@@ -58,7 +58,7 @@ to the URL of the web service via requests to get the response of the model.
 
 Step 6 also includes the results of benchmarking the endpoint with Apache bench.
 
-# Screenshots
+### Screenshots
 
 Bank model app insight enabled
 https://github.com/viyq/mle-OML-p2/blob/main/bank%20model%20app%20insight%20enabled.jpg
@@ -79,7 +79,7 @@ https://github.com/viyq/mle-OML-p2/blob/main/benchmark%20endpoint.jpg
 
 Step 7 includes a complete pipeline creation to allow automation and publication. The second part of the project (notebook) will publish a pipeline after implementation of AutoML
 
-# Screenshots
+### Screenshots
 
 The Bankmarketing dataset with the AutoML module
 https://github.com/viyq/mle-OML-p2/blob/main/bank%20dataset%20with%20pipeline%20overview.jpg
@@ -87,20 +87,23 @@ https://github.com/viyq/mle-OML-p2/blob/main/bank%20dataset%20with%20pipeline%20
 Screenshot of the Jupyter Notebook with “Use RunDetails Widget” with the step runs completed
 https://github.com/viyq/mle-OML-p2/blob/main/AutoML%20widget%20run%20completed.jpg
 
-ML studio showing the pipeline endpoint as Active
+ML studio showing the pipeline endpoint as Active, "Completed" status of the pipeline
+https://github.com/viyq/mle-OML-p2/blob/main/pipeline%20rest%20endpoint.jpg
+
+Published Pipeline overview, showing a REST endpoint and a status of ACTIVE
 https://github.com/viyq/mle-OML-p2/blob/main/published%20pipeline%20active.jpg
 
 ML studio showing the scheduled run
 https://github.com/viyq/mle-OML-p2/blob/main/ML%20scheduled%20pipeline%20run.jpg
 
-# Pipeline architecture
+## Pipeline architecture
 
 The Pipeline class in the notebook file is defined by the variable steps. Where steps is an AutoMLStep object type that includes the AutoML configuration of the model (automl_config), 
 and the outputs (metrics_data and model_data).
 
 After running the pipeline, the best model can be selected based on the primary metric.
 
-# Publish and run from REST endpoint
+## Publish and run from REST endpoint
 
 The pipeline run can be identified by a run_id and publishing it with pipeline_run.publish_pipeline() will enable a REST endpoint to rerun the pipeline from any HTTP library on any platform.
 
@@ -115,5 +118,4 @@ allow more benchmarking.
 
 Screencast Project Operationalizing ML
 https://youtu.be/HvzKVQKsayw
-
 
