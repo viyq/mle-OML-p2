@@ -30,7 +30,7 @@ An image "architectural diagram.png" shows the design of the project as general 
 The Azure credentials to be use in ML are stored in the config.json file. The AutoML of the dashboard can be used to create an AutoML experiment
 that will later allow to select the best model. Once the best model is selected, the model can be deployed.
 
-# Screenshots
+### Screenshots
 
 Service principal created and associated with workspace
 https://github.com/viyq/mle-OML-p2/blob/main/sp%20screenshot.jpg
