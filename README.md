@@ -23,7 +23,8 @@ The project includes the following parts/steps:
     
 ## Architectural diagram
 
-An image "architectural diagram.png" shows the design of the project as general overview. 
+An image "architectural diagram.png" shows the design of the project as general overview.
+https://github.com/viyq/mle-OML-p2/blob/main/architectural%20design.png
 
 ## Steps 1 to 3
 
